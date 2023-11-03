@@ -1,0 +1,21 @@
+@import "../../utils/style.scss";
+
+.banner {
+    width: 100%;
+    position: relative;
+    &__desk,
+    &__mobile {
+        width: 100%;
+    }
+    &__desk {
+        display: none;
+        @include tablette {
+            display: block;
+        }
+    }
+    &__mobile {
+        @include tablette {
+            display: none;
+        }
+    }
+}

@@ -1,0 +1,20 @@
+@import "../../utils/style.scss";
+
+.header {
+    width: 100%;
+    position: relative;
+    &__nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 15px 0;
+        position: absolute;
+        z-index: 10;
+        width: 100%;
+        &--logo {
+            img {
+                width: 100%;
+            }
+        }
+    }
+}
