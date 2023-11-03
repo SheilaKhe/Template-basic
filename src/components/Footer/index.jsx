@@ -2,11 +2,13 @@ import { Link } from "react-router-dom"
 import Links from "../Links"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faFacebook, faInstagram, faSpotify, faTwitter, faYoutube } from "@fortawesome/free-brands-svg-icons"
+import './footer.scss'
 
 function Footer() {
     return (
         <footer className="footer">
             <Links />
+            <hr />
             <ul class="footer__socials">
                 <li className="footer__socials--item">
                     <Link to="">

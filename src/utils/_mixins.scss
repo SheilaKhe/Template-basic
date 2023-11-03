@@ -12,3 +12,7 @@
         @content;
     }
 }
+
+@mixin footerBg {
+    background-color: $bk;
+}
