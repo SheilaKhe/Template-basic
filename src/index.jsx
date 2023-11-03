@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import './utils/style.scss'
 import Home from './pages/Home'
 import Header from './components/Header'
+import Footer from './components/Footer';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -15,6 +16,7 @@ root.render(
       <Routes>
         <Route path="/" element={<Home />}></Route>
       </Routes>
+      <Footer />
     </Router>
 
   </React.StrictMode>
